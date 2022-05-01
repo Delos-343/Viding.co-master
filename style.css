@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #faf4f4;
+}
+
+.SectionA {
+    width: 100%; height: 120vh;
+    background-image: url('./images/varB-bg.png');
+    display: grid;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.SectionB {
+    width: 100%; height: 120vh;
+    background-image: url('./images/prefooter-bg.png');
+    display: grid;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Section {
+    width: 100%;
+    background: #faf4f4;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.NavLogo {
+    margin-top: 2.5em;
+    margin-left: 3em;
+}
+
+.NavContainer {
+    width: 100%; display: flex;
+    background: transparent;
+}
+
+.SectionB .Container {
+    width: 69%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.Content {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #faf4f4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5em;
+    display: flex;
+}
+
+.contentCard, .itemCard {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #faf4f4;
+    display: flex;
+}
+
+.itemCard {
+    margin-top: .5em;
+}
+
+.header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #da0f7a;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+    height: 18vh;
+}
+
+.header h4, .header h3 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: auto;
+    color: #f1f1f1;
+}
+
+.header h4 {
+    font-size: 1em !important;
+    font-weight: 400 !important;
+}
+
+.header span {
+    font-weight: 400;
+}
+
+.itemCaption {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    color: #0c0c0c;
+}
+
+.cardCaption {
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    color: #da0f7a;
+    padding: 3%;
+}
+
+.itemCaption h3, .cardCaption h3 {
+    font-weight:500;
+    font-size: 16px;
+}
+
+.itemCaption h5 {
+    margin-bottom: 3.2em;
+}
+
+.items {
+    width: max(18em); height: inherit;
+    padding: 2%;
+    display: grid;
+    margin: 1em 1em 1em 1em;
+    color: #0c0c0c;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+.pfp, .pricing {
+    width: max(18em); height: inherit;
+    display: grid;
+    margin: 1em 1em 1em 1em;
+    color: #0c0c0c;
+    border-radius: 5px;
+}
+
+.cardCaption h3 {
+    font-size: .75em;
+    font-weight:400;
+    margin: 0 0 0 2em;
+    color: #0c0c0c;
+    line-height: 2.5;
+}
+
+.cardCaption i {
+    color: #dcdcdc;
+}
+
+.pricing {
+    border: 1px solid #dcdcdc;
+}
+
+.items h3 {
+    color: #da0f7a; font-weight:500;
+}
+
+.items h5 {
+    font-weight:400;
+}
+
+.Dashboard {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color: #faf4f4;
+    margin-left: 15em;
+    margin-top: 3.5em;
+    display: flex;
+}
+
+.cta {
+    width: 100%;
+    height: 7em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctaBtn {
+    padding: 3%;
+    width: 75%;
+    margin: 3em auto;
+    background-color: #da0f7a;
+    border: none;
+}
+
+.ctaBtn a {
+    font-family: 'Poppins', sans-serif;
+    color: #f1f1f1 !important;
+    text-decoration: none;
+}
+
+.ctaBtn:hover {
+    transform: rotateY(120) 1s;
+}
+
+.ContainerC .Content {
+    margin-left: 4.5em;
+}
+
+.NavContainer .Content {
+    height: 2em;
+}
+
+.NavContainer .Content:hover {
+    border-bottom: 1px solid #da0f7a;
+    transition: 1s ease-in;
+}
+
+.navButton {
+    margin: 3em auto;
+    width: 14em; height: 3.5em;
+    background: #da0f7a;
+    border: none;
+}
+    .navButton:hover {
+        background: transparent;
+        border: 1px solid #f1f1f1;
+        transition: all .75s;
+    }
+
+a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.SectionB a {
+    color: #da0f7a;
+    text-decoration: none;
+}
+
+
+.Container {
+    width: 100%;
+    display: grid;
+}
+
+.ContainerB {
+    width: 100%; display: flex;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ContainerC {
+    width: 100%; display: flex;
+    background: transparent;
+    margin-top: 3em;
+}
+
+.Box {
+    width: 80%; display: flex;
+    background: transparent;
+    margin-top: 5em;
+    margin-bottom: 7em;
+    background: #ffe8e6;
+}
+
+.Container h1 {
+    font-family: 'Prata', serif;
+    font-size: 5em;
+    font-weight: lighter;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    text-align: left;
+    color: #f1f1f1;
+}
+
+.Container p {
+    font-family: 'Montserrat', sans-serif;
+    color: #f1f1f1;
+    font-size: .25em;
+    line-height: 1.25;
+}
+
+.ContainerB h1 {
+    font-size: 3em;
+    font-weight: 500;
+    margin-left: 2em;
+    margin-top: 5em;
+    text-align: left;
+    color: #da0f7a;
+}
+
+.ContainerB p {
+    color: #da0f7a;
+    font-size: .35em;
+    line-height: 1.5;
+    margin-top: 2em;
+}
+
+.ContainerC h1 {
+    font-size: 3em;
+    font-weight: 500;
+    margin-right: 3em;
+    margin-top: 5em;
+    text-align: left;
+    color: #da0f7a;
+}
+
+.ContainerC p {
+    color: #da0f7a;
+    font-size: .33em;
+    line-height: 1.5;
+    margin-top: 2em;
+}
+
+.SectionB h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    margin: auto;
+}
+
+.Box h1 {
+    height: 7em;
+    font-size: 2.5em;
+    font-weight: 500;
+    margin: auto;
+    padding: 3%;
+    text-align: left;
+    color: #da0f7a;
+}
+
+.Box p {
+    color: #da0f7a;
+    font-size: .5em;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 2em;
+}
+
+
+.Hbutton {
+    width: 14em;
+    padding: 1%;
+    background: #da0f7a;
+    border: none;
+}
+
+.SectionB .Hbutton {
+    width: 14em;
+    padding: 1%;
+    background: #f1f1f1;
+    border: none;
+    margin: 5em auto;
+}
+    .Hbutton:hover {
+        background: transparent;
+        border: 1px solid #f1f1f1;
+        transition: all .75s;
+    }
+
+.Hbutton2 {
+    width: 14em;
+    padding: 1%;
+    background: #f1f1f1;
+    border: none;
+}
+    .Hbutton2:hover {
+        background: #da0f7a;
+        transition: all .5s;
+    }
+
+.Hlink {
+    font-size: 1.5em;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.Hlink2 {
+    font-size: 1.5em;
+    color: #da0f7a;
+    text-decoration: none;
+}
+    .Hlink2:hover {
+        color: #f1f1f1;
+        transition: all .5s;
+    }
+
+.counterContainer {
+    width: 100%;
+    height: 69vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #faf4f4;
+    margin-top: 10em;
+}
+
+.statistics {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #da0f7a;
+    margin: auto;
+    border-radius: 3px;
+}
+
+.statistics i {
+    color: #faf4f4;
+}
+
+.counter {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin: 2em 4em 2em 4em;
+}
+
+.counter img {
+    margin: auto;
+}
+
+.counter h2 {
+    font-size: 2.5em;
+}
+
+.counter h3 {
+    font-size: 1em;
+}
+
+.Footer {
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #da0f7a;
+}
+
+.links {
+    width: calc(100% / 4);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: auto;
+}
+
+.socials {
+    display: flex;
+    color: #0c0c0c;
+    justify-content: left;
+    margin-bottom: .25em;
+}
+
+.socials i {
+    color: #da0f7a;
+    font-size: 1.69em;
+    margin-right: .25em;
+}
+
+.socials i:hover {
+    color: #87ceeb;
+    transition: .5s ease-out;
+}
+
+.Footer p {
+    margin: auto;
+    font-size: .75em;
+    text-align: left;
+    color: #da0f7a;
+}
+
+.Footer a > p {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: .5em;
+}
+
+.copyRight {
+    margin: auto;
+    color: #da0f7a;
+}
+
+.copyRight h5 {
+    font-weight: 400;
+}
